@@ -1,0 +1,50 @@
+
+:root{
+    --border-area: 2px solid lightgreen;
+}
+
+header{
+    border: var(--border-area);
+}
+
+footer{
+    border: var(--border-area);
+}
+
+section{
+    border: 1px solid red;
+}
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    border-radius: 20px;
+    text-align:center;
+}
+
+
+#box-1 {
+    background-color: rgb(129, 129, 214);
+}
+
+#box-2 {
+    background-color: rgb(229, 199, 67);
+}
+
+#box-3 {
+    background-color: rgb(219, 105, 227);
+    visibility: hidden;   
+    /* When visibility hidden then it takes place but didn't show this  */
+}
+
+#box-4 {
+    background-color: rgb(77, 133, 124);
+    display: none;
+    /* When display none then didn't take any place and don't show this and remove this section from website  */
+}
+
+#box-5 {
+    background-color: rgb(209, 126, 90);
+}
